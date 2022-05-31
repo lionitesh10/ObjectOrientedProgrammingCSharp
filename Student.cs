@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace ObjectOrientedProgramming
+﻿namespace ObjectOrientedProgramming
 {
     public class Student
     {
