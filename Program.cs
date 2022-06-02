@@ -20,4 +20,7 @@ s1.display();
 Incentive i1 = new Incentive("Woz ", 15000.0f, 2000f);
 i1.displayFullSalary();
 
+CarSell carS1 = new CarSell(4,25.1f,"Toyota","Rav4",54,"Prabhat",12.5f);
+carS1.displayAllData();
+
 
