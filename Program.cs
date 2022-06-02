@@ -23,4 +23,6 @@ i1.displayFullSalary();
 CarSell carS1 = new CarSell(4,25.1f,"Toyota","Rav4",54,"Prabhat",12.5f);
 carS1.displayAllData();
 
+Earth earth = new Earth("Earth "," 3 rd planet on solar system."," Having life and water on it ");
+earth.DisplayAll();
 
