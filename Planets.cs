@@ -42,7 +42,7 @@
 
         public void DisplayAll()
         {
-            Console.WriteLine("{0} Named planet, {1} and Uniquely Indentified for {2}", getName(), getDescription(), uniqueThing);
+            Console.WriteLine("{0} Named planet, {1} and Uniquely Indentified for   {2}", getName(), getDescription(), uniqueThing);
         }
 
     }
