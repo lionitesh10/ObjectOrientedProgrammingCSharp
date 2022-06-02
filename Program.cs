@@ -31,3 +31,5 @@ backend.display();
 
 BackendDeveloper backend1 = new BackendDeveloper(75);
 backend1.displayProgress();
+
+B b = new B();
