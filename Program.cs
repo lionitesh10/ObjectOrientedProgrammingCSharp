@@ -1,6 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 using ObjectOrientedProgramming;
+using System.Collections;
+
 
 Student student = new Student();
 //student.id = 1;
@@ -33,3 +35,30 @@ BackendDeveloper backend1 = new BackendDeveloper(75);
 backend1.displayProgress();
 
 B b = new B();
+
+
+ArrayList a1 = new ArrayList();
+Console.WriteLine("Adding Numbers in Array List :: ");
+Console.WriteLine("Enter Numbers :: ");
+for(int i = 0; i < 10; i++)
+{
+    a1.Add(int.Parse(Console.ReadLine()));
+}
+
+Console.WriteLine("Capacity of Arraylist :: {0} ", a1.Capacity);
+Console.WriteLine("Count :: {0} ",a1.Count);
+Console.WriteLine("Content:: ");
+
+foreach(int i in a1)
+{
+    Console.WriteLine(i+" ");   
+}
+Console.WriteLine("Sorted ArrayList");
+a1.Sort();
+foreach(int i in a1)
+{
+    Console.WriteLine(i + " ");
+}
+
+
+
