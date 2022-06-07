@@ -39,11 +39,19 @@ B b = new B();
 
 ArrayList a1 = new ArrayList();
 Console.WriteLine("Adding Numbers in Array List :: ");
-Console.WriteLine("Enter Numbers :: ");
-for(int i = 0; i < 10; i++)
-{
-    a1.Add(int.Parse(Console.ReadLine()));
-}
+
+a1.Add(5);
+a1.Add(4);
+a1.Add(3);
+a1.Add(2);
+a1.Add(1);
+
+
+//Console.WriteLine("Enter Numbers :: ");
+//for(int i = 0; i < 10; i++)
+//{
+//    a1.Add(int.Parse(Console.ReadLine()));
+//}
 
 Console.WriteLine("Capacity of Arraylist :: {0} ", a1.Capacity);
 Console.WriteLine("Count :: {0} ",a1.Count);
@@ -60,5 +68,23 @@ foreach(int i in a1)
     Console.WriteLine(i + " ");
 }
 
+Hashtable ht=new Hashtable();
+ht.Add("cs","C Sharp");
+ht.Add("py", "Python");
+ht.Add("cpp","C++");
+ht.Add("js","Javascript");
 
+
+foreach(DictionaryEntry d in ht)
+{
+    Console.WriteLine(d.Key + " " + d.Value);
+}
+
+Console.WriteLine();
+
+string[] drives=Directory.GetLogicalDrives();
+foreach(string drive in drives)
+{
+    Console.WriteLine(drive);
+}
 
